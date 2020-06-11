@@ -1,0 +1,65 @@
+.title{
+  margin-left: 550px;
+  color: red;
+  font-style: italic;
+}
+
+.player{
+  background-size: cover;
+  align-items: justify;
+  height: 600px;
+}
+
+.btnplay{
+  margin-left: 550px;
+  padding-top: 50px;
+}
+
+.time{
+  margin-left: 550px;
+}
+
+.ccover{
+  background-image: url("../images/top.jpg");
+  height: 200px;
+  width: 200px;
+  margin-left: 550px;
+  background-size: contain;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.ccover:hover {
+  box-shadow: 0 15px 20px 0 rgba(0,0,0,0.2);
+}
+
+.songs{
+  background-color: grey;
+  width: 200px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 550px;
+  align-content: center;
+  align-items: center;
+  color: black;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.songs:hover {
+  box-shadow: 0 30px 40px 0 rgba(0,0,0,0.2);
+}
+
+img{
+  margin-left: 10px;
+}
+
+.collection-item{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+}

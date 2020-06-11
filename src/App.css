@@ -1,0 +1,78 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.musicplay{
+  margin-top: 100px;
+}
+
+.font{
+    font-size: 18px;
+}
+
+.slide-container {
+  width: 70%;
+  margin: auto; }
+
+h3 {
+  text-align: center; }
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 700px;
+}
+
+.each-slide span {
+  font-weight: bold;
+  color: white;
+  font-size: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+.each-fade {
+  display: flex;
+}
+
+.each-fade .image-container {
+  width: 75%;
+  overflow: hidden;
+}
+
+.each-fade .image-container img {
+  width: 100%;
+}
+
+.each-fade h2 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #adceed;
+}
+
+
+.player-wrapper {
+  background-image: url("./images/33.jpg");
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.react-player {
+  position: absolute;
+  top: 100px;
+  left: 150px;
+}
+
+.dropdown-basic-button {
+  display: list-item inline;
+
+}
+
+.right {
+  padding-right: 600px;
+}
